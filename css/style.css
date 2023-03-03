@@ -1,0 +1,905 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.county{
+    display: flex;
+    /* height: 40vh; */
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    align-content: center;
+    background: #35424a;
+    
+
+}
+#brand{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 2em;
+}
+#brand > span{
+    color: red;
+}
+li :focus{
+    /* background: red; */
+    color: #4a8faa;
+    transition: 1s ease-in-out;
+    border-bottom: 3px solid #fff;
+    overflow: hidden;
+}
+.btm :focus{
+    /* background: red; */
+    color: #4a8faa;
+    transition: 1s ease-in-out;
+    border-bottom: 3px solid #fff;
+    overflow: hidden;
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+a{
+    color: #fff;
+}
+li{
+    list-style: none;
+    margin-top: 1em;
+    font-size: 20px;
+    text-transform: capitalize;
+    /* padding: 0px 80px 0px 80px; */
+}
+
+.tanker{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+}
+#forms{
+    background: #cccfec;
+    width: 500px;
+    height: 30px;
+    display: flex;
+}
+#forms input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 2em;
+    font-size: 1em;
+    color: #fff;
+}
+#forms button{
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 40px;
+    background: #009990;
+    /* padding: 10px 50px; */
+    color: #fff;
+    cursor: pointer;
+}
+#cargo{
+    margin-top: 5em;
+    width: 500px;
+    height:100px;
+    aspect-ratio: 1 / 1;
+ 
+  animation:
+    8s linear 0s infinite alternate rise,
+    8s linear 0s infinite alternate bounce;
+}
+
+@keyframes rise {
+    from {
+      transform: translateY(110vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateX(-50vw);
+    }
+    to {
+      transform: translateX(50vw);
+    }
+  }
+
+  
+
+section.shop{
+    display:flex;
+    width: 100%;
+    flex-flow: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    background: #fff;
+    border-bottom: 1px solid red;
+}
+.containers p{
+    width: 400px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #4a8faa;
+    padding-top: 5em;
+}
+
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1em;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+}
+
+#cold{
+    width: 300px;
+    height: 300px;
+    align-self: center;
+    align-items: center;
+}
+.faruq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #fafafa;
+    border-bottom: 70pe;
+    cursor: pointer;
+    margin-top: 3em;
+}
+.faruq:hover{
+    border: 1px solid red;
+}
+#yus{
+    width: 100px;
+    height: 100px;
+}
+.father{
+    margin-top: 3em;
+}
+.faq{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+h6{
+    text-align: center;
+    border-right: 2px solid red;
+}
+.sauce p{
+    width: 60%;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    font-size: 1em;
+    text-transform: capitalize;
+}
+/* sectiom3 */
+a{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.answer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+}
+
+.azaman{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-flow: nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#dan{
+    background: #35424a;
+}
+#set{
+    width: 100%;
+    border-radius: 50%;
+    font-size: 50px;
+    background: #4a8faa;
+    margin-top: 1em;
+}
+#sets{
+    width: 100%;
+    border-radius: 50%;
+    font-size: 50px;
+    background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    margin-top: 1em;
+}
+.sauce{
+    margin-top: 2em;
+    color: #fff;
+    
+}
+#form{
+    background: #cccfec;
+    width: 500px;
+    height: 30px;
+    display: flex;
+}
+#form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 2em;
+    font-size: 1em;
+    color: #fff;
+}
+.buttons{
+    border: none;
+    outline: none;
+    height: 32px;
+    width: 40px;
+    background: #009990;
+    /* padding: 10px 50px;; */
+    color: #fff;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding-bottom: 3em;
+    margin-top: 3em;
+}
+/* started styling about page here*/
+body{
+    background:#cccf; ;
+}
+.div{
+    background: #fff;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    /* background-color: #04AA6D; */
+    color: white;
+    padding: 0.1em;
+    font-size: 20px;
+    border: none;
+  }
+  .dropbtn:hover{
+    color: red;
+    border-bottom: 1px solid #fff;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* z-index: 1; */
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid red;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn:focus {
+    background-color: #ddd;
+
+};
+.dropbtn:focus{
+    border-bottom: 1px solid red;
+}
+.container p{
+    color: #fff ;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding-left: 3em;
+}
+
+#goz{
+    background-color:#4a8faa;
+    padding: 1em;
+}
+ .egg2{
+    color: #fffacb;
+    margin-left: 5em;
+}
+.container h1{
+    font-size: 40px;
+    color:#cccfec
+}
+#ikoyi{
+    border-radius: 50%;
+    margin-top: 4em;
+    width: 30%;
+    height: 200px;
+}
+
+.mains{
+    background-color:#cccfec;
+    /* padding: 2em; */
+
+}
+
+#rest h3,
+.pud{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:#4a8faa;
+}
+#xml h4{
+    font-size: 30px;
+    color: #888;
+    text-align: center;
+    margin-bottom: 2em;
+    border-bottom: 8px solid #354;
+}
+#css{
+    background: #4a8faa;
+    color: #ffffff
+}
+#html{
+    background: #e8491d;
+    color: #ffffff
+}
+#js{
+    background: yellow;
+    color: #cccfec;
+}
+#rt{
+    /* background: yellow; */
+    color: #4a8faa;
+}
+#node{
+    background: green;
+    color: #cccfec;
+}
+.content{
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap; 
+     justify-content: space-evenly;
+}
+/* Started designing on More page here */
+.container-content{
+    display: flex;
+    justify-content: space-evenly;
+    /* background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+    background:linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    padding: 2em;
+}
+.main-content h4{
+    font-size: 30px;
+    color: #009990;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.msg{
+    color: #009990;
+}
+.main-content h5{
+    font-size: 20px;
+    color: #009990;
+    font-family:Arial, Helvetica, sans-serif;
+}.main-content p{
+    font-size: 15px;
+    color: #009990;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#gymis{
+    width: 700px;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    box-shadow: 5px 5px 5px 5px #cccfce;
+    opacity: 0.3;
+}
+.btn-content{
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(45deg, #874da2 0%, #c43a30 100%); 
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 2em;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.makamond{
+    color: #fff;
+    font-size: 18px;
+    padding-top: 2em;
+    cursor: pointer;
+}
+.makamond:hover{
+    color: #009990;
+}
+/* started styling form inside man.html */
+.name-content{
+    color: #009990;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.input-content{
+    padding: 0.3em;
+    background: #c2c2c2;
+    border: 0.1px solid #009990;
+    outline: none;
+    margin-bottom: 2em;
+    color: #fff;
+    font-size: 15px;
+    opacity: 2;
+    /* display: block; */
+    /* align-items: center; */
+}
+/* started styling srvices page here */
+#each-member > p{
+    background: #009990;
+    color: #cccc;
+    width: 200px;
+    height: 100px;
+    padding-left: 1em;
+    font-size: 12px;
+    padding-top: 1em;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 10px 10px 10px 10px #cccfec;
+}  
+.member-content{
+    display:flex;
+    justify-content: space-evenly;
+}
+.body-content{
+    /* background:  linear-gradient(to top, #5f72bd 0%, #9b23ea 100%); */
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    /* height: 200px; */
+    padding: 1em;
+}
+#center{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+#center p{
+    color: #009990;
+    text-decoration-line: underline;
+    padding-top: 2em;
+    text-transform:capitalize;
+}
+#center img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* box-shadow: 5px 10px 5px 10px #cccfec; */
+    opacity: 0.6;
+}
+.center-content{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+#meta h4{
+    
+    color: #fff;
+    font-size: 10px;
+    text-transform:capitalize;
+}
+#meta p{
+    color: #fff;
+    font-size: 10px;
+    text-transform:capitalize;
+}
+#meta{
+    background: #43202e;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 20%;
+    text-align: center;
+    width: 100px;
+    margin-top: 2em;
+}
+.main-contents h3{
+    color: #009990;
+    font-size: 15px;
+    text-align: center;
+    text-transform:capitalize;
+}
+.main-contents p{
+    color: #009990;
+    font-size: 10px;
+    text-align: center;
+    text-transform:capitalize;
+    width: 50%;
+    padding-left: 15em;
+    /* align-self: center; */
+} 
+#images-content img{
+    width: 500px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 10px  10px #fff;
+    opacity: 051;
+    margin-right: 2em;
+    cursor: pointer;
+
+}
+.sidebar-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.aside-content h3{
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#009990;
+    text-decoration-line: underline;
+}
+.sidebar-content p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-top: 5em;
+    color:#009990;
+}
+.conga{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mogodb{
+    align-items: end;
+    text-align: center;
+    /* align-content: end; */
+    display:grid;
+    /* justify-content: space-evenly; */
+    padding: 2em;
+    color: #009990;
+    margin-top: 5em;
+    width: 100%;
+    cursor: pointer;
+    /* height: 100%; */
+}
+@media (max-width: 768px) {
+    #brand{
+        color: #fff;
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-top: 2em;
+    }
+    li{
+        list-style: none;
+        margin-top: 0.2em;
+        font-size: 10px;
+        text-transform: capitalize;
+        /* padding: 0px 80px 0px 80px; */
+    }
+    .dropbtn {
+        color: white;
+        padding: 0.1em;
+        font-size: 10px;
+        border: none;
+        margin-top: 0.2em;
+      }
+      li :focus{
+        color: #4a8faa;
+        transition: 1s ease-in-out;
+        border-bottom: 3px solid #fff;
+        overflow: hidden;
+    }
+    .btm :focus{
+        color: #4a8faa;
+        transition: 1s ease-in-out;
+        border-bottom: 3px solid #fff;
+        overflow: hidden;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      }
+      /* .tanker{
+        width: 50%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.1em;
+        padding-left: 2em;
+    } */
+    .tankers{
+        width: 20px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.1;
+        padding-left: 0;
+    }
+      #forms{
+        background: #cccfec;
+        width: 200px;
+        height: 30px;
+        display: flex;
+        margin-left: 0.1em;
+    }
+    ::placeholder{
+        padding-left: 1em;
+    }
+    #forms input{
+        flex: 1;
+        border: none;
+        outline: none;
+        padding-left: 0.1em;
+        font-size: 1em;
+        color: #fff;
+    }
+    #forms button{
+        border: none;
+        outline: none;
+        height: 32px;
+        width: 40px;
+        background: #009990;
+        /* margin-right: 1em; */
+        color: #fff;
+        cursor: pointer;
+    }
+    #cargo{
+        display: none;
+    }
+    .sample{
+        background: #009990;
+        padding: 1em;
+    }
+    .containers p{
+        width: 200px;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: #4a8faa;
+        padding: 2em;
+    }
+    .faq{
+        display: block;
+        flex-direction: row;
+        align-content: center;
+        flex-flow: nowrap;
+        justify-content: space-evenly;
+        width: 100%;
+        /* overflow: hidden; */
+    }
+    .father{
+        margin-top: 0;
+        width: 100%;
+        align-items: center;
+        align-self: center;
+        margin-right: 2em;
+        background-size: contain;
+    }
+    .faruq{
+        margin-top: 0;
+        /* overflow: hidden; */
+    }
+    #me{
+        width: 100%;
+        object-fit: contain;
+        align-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #set{
+        width: 100%;
+        border-radius: 50%;
+        font-size: 20px;
+        background: #4a8faa;
+        margin-top: 1em;
+    }
+    #sets{
+        width: 100%;
+        border-radius: 50%;
+        font-size: 20px;
+        background: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+        margin-top: 1em;
+    }
+    .sauce p{
+        width: 60%;
+        font-size: 0.5em;
+        text-transform: capitalize;
+    }
+    .media{
+        width: 30px;
+        margin-right: 2em;
+    }
+    /* styling user email */
+    #form{
+        background: #cccfec;
+        width: 170px;
+        height: 30px;
+        display: flex;
+        margin-right: 0;
+    }
+    #form input{
+        flex: 1;
+        border: none;
+        outline: none;
+        padding-left: 0.1em;
+        font-size: 10px;
+        color: #fff;
+    }
+    .buttons{
+        border: none;
+        outline: none;
+        height: 32px;
+        width: 40px;
+        background: #009990;
+        /* padding: 10px 50px;; */
+        color: #fff;
+        cursor: pointer;
+    }
+    #dan{
+        background: #35424a;
+        padding: 1em;
+        height: 100;
+        overflow: hidden;
+    }
+    footer p{
+        margin-top: 3em;
+    }
+    /* started media query on about.html here */
+    #goz{
+        background-color:#4a8faa;
+        padding: 0.1em;
+    }
+    .container h1{
+        font-size: 20px;
+        color:#cccfec
+    }
+    .container > p{
+        font-size: 10px;
+        color: #cccfec;
+    }
+    .mains{
+        background-color:#cccfec;
+        padding: 1em;
+    }
+    #rest h3,
+.pud{
+    font-size: 10px;
+    text-transform: capitalize;
+    color:#4a8faa;
+    width: 70%;
+}
+#ikoyi{
+    border-radius: 50%;
+    margin-top: 4em;
+    width: 50%;
+    height: 30%;
+}
+/* started syling more pase here */
+.container-content{
+    display: block;
+    /* justify-content: space-evenly;
+    background:linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+    padding: 2em; */
+}
+#gymis{
+    width: 100%;
+    object-fit: contain;
+    align-content: center;
+    align-items: center;
+    margin-top: 2em;
+    overflow: hidden;
+   
+}
+.makamond{
+    color: #fff;
+    font-size: 8px;
+    padding-top: 2em;
+    padding: 0.1em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+#azamen{
+    display: grid;
+    flex-direction: 0;
+    align-content: start;
+    flex-flow: 0;
+    justify-content: 0;
+}
+#mumu{
+    padding: 2em;
+}
+/*started styling services page here*/
+.conga,
+.member-content,
+.sidebar-content{
+    display: grid;
+}
+#center,
+.center-content{
+    /* padding: 2em; */
+    align-items: center;
+    justify-content: center;
+}
+#center > p{
+    font-size: 10px;
+}
+.sidebar-content p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    margin-bottom: 2em;
+    color:#009990;
+}
+#images-content img{
+    width: 90%;
+    object-fit: contain;
+    align-content: center;
+    align-items: center;
+    margin-top: 2em;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 0.5em;
+}
+#code{
+    padding: 1em;
+}
+#nambo{
+    position: relative;
+    right: 4em;
+}
+.main-contents > p{
+    padding-left: 7em;
+    text-align: center;
+}
+
+}
+
+   
